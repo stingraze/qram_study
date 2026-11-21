@@ -4,6 +4,8 @@
 
 Unary-iteration (QROM-style select-tree) QRAM circuit generator, classical reversible verifier, step-by-step gate debugger, and runner for local GPU/MPS simulation and IBM Quantum hardware via `qiskit-ibm-runtime` (`SamplerV2`).
 
+Note: IBM Quantum execution (on QPU) is not tested yet. Proceed with caution and use it with your own risk.
+
 ## Circuit Layouts
 
 Each layout uses `n` address qubits, `n` tree-ancilla qubits, and `d` data qubits (`2n + d` total). Empty subtrees are automatically pruned.
